@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rognaash!</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/1003px-Leaf_icon_15.svg.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Rog<span class="span">Naash</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#food-menu" class="navbar-link" data-nav-link>Life Upgraded</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>It's Cool</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="search-btn" aria-label="Search" data-search-btn>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+       <a href="https://neal.fun/"> <button class="btn btn-hover">Don't Click Me!</button></a>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-container>
+
+    <div class="search-box">
+      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
+        class="search-input">
+
+      <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Nourish Your Soul</p>
+
+            <h2 class="h1 hero-title">Reviving the Lost Art : AyurVeda</h2>
+
+            <p class="hero-text">See the magic of Ayurveda change your life and be the ultimate doom of your health
+              issues.</p>
+
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner-bg.png" width="820" height="716" alt="" aria-hidden="true"
+              class="w-100" ;>
+
+            <img src="./assets/images/hero-banner.png" width="700" height="637" loading="lazy" alt="Burger"
+              class="w-100 hero-img">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      <section class="section section-divider white promo">
+        <div class="container">
+
+          <ul class="promo-list has-scrollbar">
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                    <path fill="#ff9d2d" d="M14.5 4.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0" />
+                    <path fill="#ff9d2d" fill-rule="evenodd"
+                      d="M12.869 9.822a5.271 5.271 0 0 0-1.738 0c-2.507.423-4.38 2.624-4.38 5.198c0 .564-.317 1.085-.824 1.341L3.338 17.67a.75.75 0 0 1-.676-1.338l2.587-1.308l.001-.003c0-3.306 2.402-6.133 5.632-6.677a6.771 6.771 0 0 1 2.236 0c3.23.544 5.632 3.371 5.632 6.677v.002l2.588 1.309a.75.75 0 1 1-.676 1.338l-2.589-1.308a1.502 1.502 0 0 1-.823-1.341c0-2.574-1.873-4.775-4.381-5.198M9.95 15.4a.75.75 0 0 1 .15 1.05l-1.046 1.395l-.071.093a2.75 2.75 0 0 1-1.421.944l-.113.029l-.008.002l-1.485.371a1.592 1.592 0 0 0-1.206 1.545c0 .232.189.421.421.421h1.556c.617 0 .865-.001 1.103-.03a4.248 4.248 0 0 0 1.64-.546c.206-.12.405-.268.898-.638L12.55 18.4a.75.75 0 0 1 .9 1.2l-.904.678l1.257.472c.627.235.88.328 1.137.389a4.5 4.5 0 0 0 .42.076c.261.034.53.035 1.2.035h2.269a.421.421 0 0 0 .421-.421c0-.73-.497-1.368-1.206-1.545l-1.493-.373l-.112-.03a2.75 2.75 0 0 1-1.422-.943l-.07-.093L13.9 16.45a.75.75 0 1 1 1.2-.9l1.042 1.389l.052.069a1.25 1.25 0 0 0 .729.45l1.485.37a3.092 3.092 0 0 1 2.342 3c0 1.062-.86 1.922-1.921 1.922h-2.321c-.602 0-.973 0-1.342-.048a5.75 5.75 0 0 1-.568-.103c-.362-.085-.71-.215-1.273-.426l-2.203-.826c-.381.285-.632.47-.9.624a5.75 5.75 0 0 1-2.217.74c-.335.04-.676.039-1.23.039H5.172a1.921 1.921 0 0 1-1.92-1.921a3.09 3.09 0 0 1 2.341-3l1.485-.371a1.25 1.25 0 0 0 .781-.519L8.9 15.55a.75.75 0 0 1 1.05-.15"
+                      clip-rule="evenodd" />
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Siddhant</h3>
+
+                <p class="card-text">
+
+                  Ayurveda principles: Balance doshas, holistic wellness, personalized care, mind-body-spirit harmony,
+                  ancient wisdom for modern well-being.
+                </p>
+
+                <img src="./assets/images/promo-1.jpg" width="300" height="300" loading="lazy" alt="Maxican Pizza"
+                  class="w-100 card-banner prromo">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                    <path fill="#ff9d2d"
+                      d="M20.998 3v2c0 9.627-5.373 14-12 14H5.241a17.14 17.14 0 0 0-.243 3h-2c0-1.363.116-2.6.346-3.732c-.23-1.294-.346-3.05-.346-5.268c0-5.523 4.477-10 10-10c2 0 4 1 8 0m-8 2a8 8 0 0 0-8 8c0 .362.003.711.01 1.046c1.254-1.978 3.091-3.541 5.494-4.914l.992 1.736C8.64 12.5 6.746 14.354 5.774 17h3.224c6.015 0 9.871-3.973 9.997-11.612c-1.372.133-2.647.048-4.22-.188c-1.15-.173-1.376-.2-1.777-.2" />
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Jeevan</h3>
+
+                <p class="card-text">
+                  Ayurveda living: Align with nature, nurture balance, embrace rituals, nourish body, mind, and spirit
+                  harmoniously.
+                </p>
+
+                <img src="./assets/images/promo-2.avif" width="300" height="300" loading="lazy" alt="Soft Drinks"
+                  class="w-100 card-banner prromo">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                    <path fill="#ff9d2d"
+                      d="M10 18h1v-4q.625 0 1.063-.437T12.5 12.5v-3h-1v3H11v-3h-1v3h-.5v-3h-1v3q0 .625.438 1.063T10 14zm4 0h1V9.5q-.825 0-1.412.588T13 11.5v3h1zM4 21V9l8-6l8 6v12zm2-2h12v-9l-6-4.5L6 10zm6-6.75" />
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Bhojan</h3>
+
+                <p class="card-text">
+
+                  Ayurvedic diet: Harmonize tastes, tailor to dosha, seasonal nourishment, mindful eating fosters
+                  holistic well-being.
+                </p>
+
+                <img src="./assets/images/promo-3.webp" width="300" height="300" loading="lazy" alt="French Fry"
+                  class="w-100 card-banner prromo">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 14 14">
+                    <g fill="none" stroke="#ff9d2d" stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M6.022 4.347a18.452 18.452 0 0 0-1.93 1.686C1.248 8.877-.192 12.046.874 13.113c1.066 1.066 4.236-.375 7.079-3.218a18.452 18.452 0 0 0 1.686-1.931" />
+                      <path
+                        d="M9.639 7.964c1.677 2.226 2.36 4.32 1.532 5.148c-1.067 1.067-4.236-.374-7.08-3.217C1.249 7.05-.191 3.882.875 2.815c.828-.827 2.922-.144 5.148 1.532" />
+                      <path
+                        d="M5.522 7.964a.5.5 0 1 0 1 0a.5.5 0 0 0-1 0m2.51-4.354c-.315-.055-.315-.506 0-.56a2.843 2.843 0 0 0 2.29-2.193L10.34.77c.068-.31.51-.312.58-.003l.024.101a2.858 2.858 0 0 0 2.296 2.18c.316.055.316.509 0 .563a2.858 2.858 0 0 0-2.296 2.18l-.024.101c-.07.31-.512.308-.58-.002l-.02-.087A2.843 2.843 0 0 0 8.03 3.61Z" />
+                    </g>
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Vigyaan</h3>
+
+                <p class="card-text">
+                  Ayurveda & science: Ancient wisdom meets modern research, exploring synergies in holistic health,
+                  blending tradition and innovation.
+                </p>
+
+                <img src="./assets/images/promo-4.jpg" width="300" height="300" loading="lazy" alt="Burger Kingo"
+                  class="w-100 card-banner prromo">
+
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <div class="card-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                    <path fill="#ff9d2d"
+                      d="M6 22v-4.3q-1.425-1.3-2.212-3.037T3 11q0-3.75 2.625-6.375T12 2q3.125 0 5.538 1.838t3.137 4.787L22.3 15H19v5h-4v2h-2v-4h4v-5h2.7l-.95-3.875q-.575-2.275-2.45-3.7T12 4Q9.1 4 7.05 6.025T5 10.95q0 1.5.613 2.85t1.737 2.4l.65.6V22zm5-8h2V7h-2zm3-1.5h2V8h-2zM8 12h2V8H8z" />
+                  </svg>
+                </div>
+
+                <h3 class="h3 card-title">Aatma</h3>
+
+                <p class="card-text">
+                  Ayurveda and spirituality: Integrating ancient wisdom with spiritual essence, fostering holistic
+                  well-being, and inner balance.
+                </p>
+
+                <img src="./assets/images/promo-5.jpg" width="300" height="300" loading="lazy" alt="Chicken Masala"
+                  class="w-100 card-banner prromo">
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+            <img src="./assets/images/about-banner.avif" width="509" height="500" loading="lazy"
+              alt="Burger with Drinks" class="w-100 about-img">
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              Discover Rognaash: The Fusion of
+              <span class="span">Ayurveda and AI Wisdom</span>
+            </h2>
+
+            <p class="section-text">Embark on a transformative journey at Rognaash, where Ayurveda's ancient wisdom
+              converges seamlessly with cutting-edge AI technology.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Saving the Indian Medical Diversity</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Herbal Medicine Database</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Herbal Remedies for Common Ailments</span>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-outline"></ion-icon>
+
+                <span class="span">Fastest replies from our experts straight to you </span>
+              </li>
+
+            </ul>
+
+            <a
+              href="https://ia802808.us.archive.org/21/items/TheCompleteBookOfAyurvedicHomeRemedies/The%20Complete%20Book%20of%20Ayurvedic%20Home%20Remedies.pdf"><button
+                class="btn btn-hover">Discover More!!</button></a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #FOOD MENU
+      -->
+
+      <section class="section food-menu" id="food-menu">
+        <div class="container">
+          <p class="section-subtitle">Have a Look at The</p>
+
+          <h2 class="h2 section-title">
+            Acient Ho<span class="span">me Remedies</span>
+          </h2>
+
+          <p class="section-text">
+
+
+
+
+
+
+          </p>
+
+          <ul class="food-menu-list">
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-1.cms" width="400" height="400" loading="lazy"
+                    alt="Fried Chicken Unlimited" class="w-100 ckka">
+
+                  <div class="badge">sweet , sour , bitter</div>
+
+                  <a href="https://ministryofcurry.com/kadha-recipe/"><button class="btn food-menu-btn">Want
+                      Recipes?</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Kadhas</p>
+
+
+                </div>
+
+                <h3 class="h3 card-title">Kadhas</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Benifits :</p>
+
+                  <data class="price">Detoxification etc</data>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-2.jpg" width="400" height="400" loading="lazy"
+                    alt="Burger King Whopper" class="w-100 ckka">
+
+                  <div class="badge">sweet , spicy , sweet-spicy</div>
+
+                  <a href="https://www.patanjaliayurved.net/category/candy/12"><button class="btn food-menu-btn">Buy
+                      Some!</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Ayurvedic Candies</p>
+
+
+                </div>
+
+                <h3 class="h3 card-title">Ayurvedic Candies</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Benifits :</p>
+
+                  <data class="price" value="29.00"> Sugar Alternative etc .</data>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-3.jpg" width="400" height="400" loading="lazy"
+                    alt="White Castle Pizzas" class="w-100 ckka">
+
+                  <div class="badge">Refreshing</div>
+
+                  <a href="https://www.healthline.com/health/beauty-skin-care/ayurvedic-skin-care"><button
+                      class="btn food-menu-btn">Skin Solution</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Skin Solution</p>
+
+
+                </div>
+
+                <h3 class="h3 card-title">Skin Solution</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Benifits :</p>
+
+                  <data class="price" value="29.00"> Soothing for Skin .</data>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-4.jpg" width="400" height="400" loading="lazy"
+                    alt="Bell Burrito Supreme" class="w-100 ckka">
+
+                  <div class="badge">sweet-spicy</div>
+
+                  <a href="https://recipes.timesofindia.com/articles/kitchen-hacks/how-to-make-chemical-free-chyawanprash-at-home/photostory/61754495.cms"><button class="btn food-menu-btn">Want Recipes?</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Chawanprash</p>
+
+
+                </div>
+
+                <h3 class="h3 card-title">Chawanprash</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Benifits</p>
+
+                  <data class="price" value="59.00 ">Brain Function</data>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-5.jpg" width="400" height="400" loading="lazy"
+                    alt="Kung Pao Chicken BBQ" class="w-100 ckka">
+
+                  <div class="badge">anti-bacterial</div>
+
+                  <a href="https://www.lakshmiayurveda.com.au/2020/04/ayurveda-and-hygiene/"> <button class="btn food-menu-btn">Want to know?</button>
+                  </a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Personal Hygiene</p>
+
+
+                </div>
+
+                <h3 class="h3 card-title">Personal Hygiene</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Benifits:</p>
+
+                  <data class="price" value="49.00">Anti-Bacterial</data>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-menu-6.jpg" width="400" height="100" loading="lazy"
+                    alt="Wendy's Chicken" class="w-100 ckka">
+
+                  <div class="badge">healthy</div>
+
+                  <a href="https://www.medicalnewstoday.com/articles/ayurvedic-diet"> <button class="btn food-menu-btn">Wanna make a plan ? </button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Diet Plan</p>
+
+
+                </div>
+
+                <h3 class="h3 card-title">Diet Plan</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Benifits:</p>
+
+                  <data class="price" value="49.00">keeps you healthy</data>
+
+
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+      <section class="section section-divider white blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Here is your Genie for all the Problems YOU meet</p>
+
+          <h2 class="h2 section-title">
+            Herba <span class="span">Bot</span>
+          </h2>
+
+          <p class="section-text">
+            Discover holistic health alternatives tailored just for you, guiding you towards natural vitality and
+            balance.
+          </p>
+
+          <ul class="blog-list">
+
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/blog-3.jpg" width="600" height="390" loading="lazy"
+                    alt="Innovative Hot Chessyraw Pasta Make Creator Fact." class="w-100">
+
+                  <div class="badge">Herba-Bot</div>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="card-meta-wrapper">
+
+
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="meta-info" datetime="2022-01-01">Available any time</time>
+
+
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <p class="meta-info">Your Assistant</p>
+
+
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="https://herba-bot.zapier.app" class="card-title">Let's Chat it out! One stop solution for all your problems </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The chatbot uses cutting-edge technology in field of A.I. and Natural Language Processing too
+                    deliver you the best possible experience by harnessing the power of the future. </p>
+
+                  <a href="https://herba-bot.zapier.app" class="btn-link">
+                    <span>Explore!</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section section-divider white cta" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="cta-content">
+
+            <h2 class="h2 section-title">
+              Take our One Month Challenge
+              <span class="span">To Balance your Dosha!</span>
+            </h2>
+
+            <p class="section-text">
+              Embark on a transformative odyssey with Rognash's one-month Ayurvedic Challenge. Discover the profound
+              symphony of dosha balance, harmonizing your essence and awakening a holistic alignment within
+            </p>
+
+           <a href="#chllenge"> <button class="btn btn-hover">Take Challenge</button></a>
+          </div>
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.png" width="400" height="400" loading="lazy" alt="Burger"
+              class="w-90 cta-img">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DELIVERY
+      -->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+
+          <div class="delivery-content">
+
+            <h2 class="h2 section-title">
+              After Taking The Challenge <span class="span">You Will be </span> a New Person
+            </h2>
+
+            <p class="section-text">
+              After completing our transformative challenge, experience newfound strength and vitality. Effortlessly
+              carry heavy loads on your back while riding a cycle, as you embrace the empowered and resilient version of
+              yourself
+            </p>
+
+          </div>
+
+          <figure class="delivery-banner">
+            <img src="./assets/images/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds"
+              class="w-100">
+
+            <img src="./assets/images/delivery-boy.svg" width="1000" height="880" loading="lazy" alt="delivery boy"
+              class="w-100 delivery-img" data-delivery-boy>
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Shiksha</p>
+
+          <h2 class="h2 section-title">
+            Our Gurus <span class="span">Say</span>
+          </h2>
+
+          <p class="section-text">
+            Ancient wisdom gifted by Indian sages, Ayurveda is a timeless beacon of holistic well-being. Rooted in
+            tradition, it illuminates the path to health and harmony with nature.
+          </p>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-1.webp" width="80" height="80" loading="lazy" alt="Robert William">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Maharishi Mahesh Yogi</h3>
+
+                    <p class="testi-title">Indian Guru</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without AyurVeda. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-2.webp" width="80" height="160" loading="lazy" alt="Thomas Josef">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Balaraj Maharishi</h3>
+
+                    <p class="testi-title">Indian Guru</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would like to thank you for making such a wonderful web which is Reviving AyurVeda."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Baba Ramdev</h3>
+
+                    <p class="testi-title">Indian Guru</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would like to thank you for such a amazing product I very much liked the herba bot."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section section-divider gray banner" id="chllenge">
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li class="banner-item banner-lg">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-1.jpg" width="550" height="450" loading="lazy"
+                  alt="Discount For Delicious Tasty Burgers!" class="banner-img">
+
+                <div class="banner-item-content">
+                  <p class="banner-subtitle">Our Epic</p>
+
+                  <h3 class="banner-title">3 Month Challenge!</h3>
+
+                  <p class="banner-text">And see the results</p>
+
+                 <a href="https://darebee.com/"><button class="btn">Take Challenge</button></a> 
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title"> 2 Month challenge</h3>
+
+                  <p class="banner-text">And see the results</p>
+                  <a href="https://darebee.com/"><button class="btn">Take Challenge</button></a> 
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-sm">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title">1 Week Month Challenge</h3>
+
+                  <p class="banner-text">And see the results</p>
+                  <a href="https://darebee.com/"><button class="btn">Take Challenge</button></a> 
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="banner-item banner-md">
+              <div class="banner-card">
+
+                <img src="./assets/images/banner-4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+                  class="banner-img">
+
+                <div class="banner-item-content">
+                  <h3 class="banner-title"> Take 1 Month Challenge</h3>
+
+                  <p class="banner-text">And see the results</p>
+                  <a href="https://darebee.com/"><button class="btn">Take Challenge</button></a> 
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">Rognaash<span class="span">.</span></a>
+
+          <p class="footer-text">
+            Ancient wisdom gifted by Indian sages, Ayurveda is a timeless beacon of holistic well-being. Rooted in
+            tradition, it illuminates the path to health and harmony with nature.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">+91 9540367364</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">rayyan4882@spsmayurvihar.com</p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">Salwan Public School ,J86R+233, Kondli-Gharoli Complex, Mayur Vihar-III,
+              New Delhi, 110096</address>
+          </li>
+
+        </ul>
+
+
+
+        </ul>
+
+
+
+
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright-text">
+          &copy; 2024 <a href="#" class="copyright-link">Nafa' Production by Rayyan</a> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
